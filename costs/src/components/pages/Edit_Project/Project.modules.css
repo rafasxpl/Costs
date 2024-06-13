@@ -1,0 +1,130 @@
+.cardProject {
+    height: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 1em;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px auto;
+}
+
+.nome__orcamento {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.nome__orcamento span {
+    font-weight: bold;
+}
+
+.nome__orcamento input {
+    min-width: 50%;
+    background-color: #aaaaaa21;
+}
+
+.containerCard select {
+    background-color: #aaaaaa21;
+    min-width: 90%;
+}
+
+.containerCard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saveChanges {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #0cdd1d;
+}
+
+.calcelChanges {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #e71b1b;
+    color: black;
+}
+
+.save__cancel {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 299px) {
+    .nome__orcamento {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nome__orcamento input {
+        min-width: 100%;
+    }
+
+    .save__cancel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .save__cancel button {
+        min-width: 100%;
+    }
+
+    .cardProject {
+        min-width: 100%;
+        margin: 10px auto;
+        border: none;
+    }
+
+    .cardProject h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 650px) {
+    .nome__orcamento {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nome__orcamento input {
+        min-width: 90%;
+    }
+
+    .save__cancel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .save__cancel button {
+        min-width: 90%;
+    }
+
+    .cardProject {
+        min-width: 100%;
+        margin: 10px auto;
+        border: none;
+    }
+}

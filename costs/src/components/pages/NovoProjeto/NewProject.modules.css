@@ -1,0 +1,38 @@
+.newProject {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.newProject h1 {
+    font-size: 2.5em;
+    margin-top: 65px;
+}
+
+.newProject p {
+    margin-top: 25px;
+    color: rgb(109, 107, 107);
+}
+
+@media screen and (min-width: 200px) and (max-width: 599px) {
+    .newProject {
+        width: 85%;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 749px) {
+    .newProject {
+        width: 75%;
+    }
+}
+
+@media(min-width: 750px) and (max-width: 999px) {
+    .newProject {
+        width: 55%;
+    }
+}
+
+@media(min-width: 1000px){
+    .newProject {
+        max-width: 55%;
+    }
+}

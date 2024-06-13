@@ -1,0 +1,12 @@
+.linkButton {
+    background-color: #222;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px 30px;
+    border-radius: 26px;
+    transition: 0.2s;
+}
+
+.linkButton a:hover {
+    color: #d88e04;
+}

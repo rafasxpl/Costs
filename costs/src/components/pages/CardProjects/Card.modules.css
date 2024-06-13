@@ -1,0 +1,124 @@
+.cardProjects {
+    height: 100%;
+    border: 2px solid #d88e04;
+    border-radius: 10px;
+    padding: 1em;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.indefinido::before   {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+.Design::before   {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(197, 38, 184);
+    display: inline-block;
+}
+
+.Educação::before   {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    display: inline-block;
+}
+
+.Arte::before   {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(252, 230, 38);
+    display: inline-block;
+}
+
+.Pesquisa::before   {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(0, 161, 8);
+    display: inline-block;
+}
+
+.Empreendedorismo::before   {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 238, 0);
+    display: inline-block;
+}
+
+.nomeProjeto,
+.category,
+.orcamento {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.orcamento,
+.category {
+    font-weight: bold;
+}
+
+.options {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+span {
+    font-weight: normal;
+}
+
+.edit,
+.trash__Fill {
+    color: black;
+}
+
+.trash__Fill,
+.edit {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.trash__Fill:active,
+.edit:active {
+    color: #d88e04;
+}
+
+
+@media(min-width: 1080px) {
+    .containerCards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width: 750px) {
+    .containerCards {
+        grid-template-columns: 1fr;
+    }
+}

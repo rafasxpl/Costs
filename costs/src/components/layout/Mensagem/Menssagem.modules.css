@@ -1,0 +1,30 @@
+.message {
+    padding: 1em;
+    border: 1px solid rgb(173, 170, 170);
+    border-radius: 10px;
+    text-align: center;
+    animation: animation 1s reverse;
+}
+
+@keyframes animation {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.ok {
+    background-color: rgba(0, 128, 0, 0.521);
+}
+
+.error {
+    background-color: rgba(165, 0, 0, 0.521);
+
+}

@@ -1,0 +1,39 @@
+.home {
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.home h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 65px;
+}
+
+.home p {
+    text-align: center;
+    color: #8a8888;
+    margin-top: 30px
+}
+
+.savings {
+    max-width: 250px;
+}
+
+.savings__container {
+    margin: 0 auto;
+}
+
+.btn_create {
+    background-color: #222;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+
+.home span {
+    color: #Ffbb33;
+    background-color: #222;
+    padding: 0 5px;
+}

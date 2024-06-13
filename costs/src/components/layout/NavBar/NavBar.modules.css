@@ -1,0 +1,54 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #222;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu {
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d88e04;
+}
+
+.listDisable {
+    display: none;   
+}
+
+.newList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+@media(min-width: 200px) and (max-width: 480px) {
+    .navBar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5em;
+    }
+}
+
+/* @media(min-width: 200px) and (max-width: 360px) {
+    .list {
+        display: none;
+    }
+} */
