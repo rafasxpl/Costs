@@ -7,9 +7,9 @@
 - no terminal, digite: 
 ```cd costs```
 ```code .```
-```npm start```
 
-- no outro terminal, digite: 
+- no terminal da IDE: ```npm start```
+- abra outro terminal e digite: 
 ```npm run backend```
 
 Pronto ;)
