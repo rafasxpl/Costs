@@ -5,7 +5,8 @@
 - ```git clone https://github.com/rafasxpl/Costs.git```
 - Abra o terminal da sua IDE (de preferencia dois) 
 - no terminal, digite: 
-```cd costs``` 
+```cd costs```
+```code .```
 ```npm start```
 
 - no outro terminal, digite: 
