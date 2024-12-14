@@ -3,13 +3,9 @@
 
 ## Rodando o projeto
 - ```git clone https://github.com/rafasxpl/Costs.git```
-- Abra o terminal da sua IDE (de preferencia dois) 
-- no terminal, digite: 
 ```cd costs```
 ```code .```
-
-- no terminal da IDE: ```npm start```
-- abra outro terminal e digite: 
+```npm install```
+```npm start```
+- Em outra aba de terminal, digite: 
 ```npm run backend```
-
-Pronto ;)
